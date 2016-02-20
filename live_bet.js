@@ -9,6 +9,7 @@ function getRoomBet(){
     $.get("http://live.bilibili.com/bet/getRoomBet",
     {'roomid':ROOMURL},
     function(data){
+        console.log(data)
         console.log("wpl"+data['data']['isBet']);
         console.log("wpl"+data['data']['betStatus']);
     })
