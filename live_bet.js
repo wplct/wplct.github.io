@@ -16,5 +16,7 @@ function getRoomBet(){
 function addBet (){
 
 }
-getRoomBet()
+console.log("wpl"+'test');
+getRoomBet();
+
 //console.log(getTokey());
