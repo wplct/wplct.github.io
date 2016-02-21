@@ -10,9 +10,8 @@ function getRoomBet(){
     {'roomid':ROOMURL},
     function(data){
         data=eval("("+data+")");
-        console.log(data)
-        console.log("wpl"+data['data']['isBet']);
-        console.log("wpl"+data['data']['betStatus']);
+        console.log(data);
+
     })
 }
 function addBet (){
