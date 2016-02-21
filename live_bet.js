@@ -1,6 +1,10 @@
 /**
  * Created by wplct on 2016/2/20.
  */
+
+var $ = require('jquery');
+
+
 function getTokey(){
     return $.cookie("LIVE_LOGIN_DATA")
 }
