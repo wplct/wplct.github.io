@@ -11,7 +11,7 @@ function getRoomBet(){
     function(data){
         data=eval("("+data+")");
         console.log(data);
-
+        alert(data);
     })
 }
 function addBet (){
